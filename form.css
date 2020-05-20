@@ -1,0 +1,22 @@
+body{
+	background-color: lightblue;
+	margin-bottom: 10px;
+}
+
+#roll_no{
+	border-radius: 25px;
+}
+
+.col-xs-10{
+	background-color: white;
+	border-color: white;
+	margin-top: 5px;
+	margin-left: 25px;
+	border-radius: 10px;
+	padding-bottom: 10px;
+}
+
+#form-horizontal{
+	margin-bottom: 30px;
+
+}

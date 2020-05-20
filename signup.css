@@ -1,0 +1,27 @@
+
+.form-horizontal{
+	padding-top: 5%;
+	padding-bottom: 5%;
+	border-top-right-radius: 10%;
+}
+input,button{
+    outline: none;
+}
+body{
+	background-color: #00ccfe;
+	padding-bottom: 10px;
+}
+.form1{
+	/*background-color: #EBF2EA;*/
+	border-radius: 5%;
+}
+.col-xs-8{
+	margin-left: 10%;
+}
+.col-xs-10{
+	margin-left: 10%;
+}
+
+b{
+	color: red;
+}

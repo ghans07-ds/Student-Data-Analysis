@@ -1,0 +1,50 @@
+body{
+    background-color: #00ccfe;
+}
+b{
+    color: red;
+}
+.title_pag{
+    font-size: 3.2rem;
+    font-family: sans-serif;
+}
+
+.form_login{
+    margin-top: 15%;
+    position: absolute;
+    display: block;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,-50%);
+}
+
+input,button{
+    outline: none;
+}
+label,.a_link {
+    font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 800px){
+    .form_login {
+        margin-top: 25%;
+    }
+} 
+
+@media only screen and (max-width: 424px) {
+    .form_login {
+        margin-top: 35% !important;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .form_login {
+        margin-top: 50% !important;
+    }
+    button{
+        margin-top: 10% !important;
+    }
+    .a_link{
+        margin-top: 5% !important;
+    }
+}
